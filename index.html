@@ -22,6 +22,21 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+  
+    <style>
+    .well {
+      position: relative;
+    }
+    .layer {
+      background: white;
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      left: 0;
+      top: 0;      
+      text-indent: -9999px;
+    }
+    </style>
   </head>
 
   <body>
@@ -58,6 +73,30 @@
 
     </div> <!-- /container -->
 
+    <div id="form" style="display:none">
+      <form>
+        <div class="input-prepend">
+          <span class="add-on">background:</span><input class="span2" rel="background" size="16" type="text" placeholder="#fff">
+        </div>
+        <div class="input-prepend">
+          <span class="add-on">width:</span><input class="span2" rel="width" size="16" type="text" placeholder="30px">
+        </div>
+        <div class="input-prepend">
+          <span class="add-on">height:</span><input class="span2" rel="height" size="16" type="text" placeholder="30px">
+        </div>                      
+        <div class="input-prepend">
+          <span class="add-on">position:</span><input class="span2" rel="position" size="16" type="text" placeholder="absolute">
+        </div>   
+        <div class="input-prepend">
+          <span class="add-on">left:</span><input class="span2" rel="left" size="16" type="text" placeholder="0">
+        </div> 
+        <div class="input-prepend">
+          <span class="add-on">top:</span><input class="span2" rel="top" size="16" type="text" placeholder="0">
+        </div>
+        
+        
+      </form>
+    </div>
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
